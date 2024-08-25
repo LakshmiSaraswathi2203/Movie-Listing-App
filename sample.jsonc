@@ -40,3 +40,13 @@
 //search API. query param should be processed. 
 //const quepara = req.query for query param
 //const filter
+
+
+//create a backend API's to list and manage students
+//1 API should provide ways to list and search the students
+//2. API should provide ways to list and search departments
+//3. aPI should support students additions
+// students should be mapped with their dept
+// 4. create a aPI for getting the students in the particular department
+//5. create an API for delete the student
+//6. create an API for delete the student-->including the students should be deleted.
