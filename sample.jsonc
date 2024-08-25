@@ -1,0 +1,42 @@
+//path parameter: GET https://api.vcew.ac.in/department/:departmentId/students
+
+//query parameter : GET https://api.vcew.ac.in/department/:departmentId/students?cgpa=8.0&doy=2005
+//cgpag = greater, cgpal = lesser
+
+//[{"name":"lakshmi","roll_No":51},{"name":"lakshmi","roll_No":52},{"name":"lakshmi","roll_No":53},{"name":"lakshmi","roll_No":54}]
+
+// development with env - for secret maintaenance QA - quality assurance, UAT - user acceptance - Prod - production
+//mongo DB atlas for database
+
+//{ status: 429,
+//message: "Too Many Requests" }
+//MONGoOSE is official package for using mongoDB
+//rest api - server side rendering - venilla js(plain). it gives json response.. 
+//from server it will send data in form of json to the front end
+//
+
+//POST https://api.vcew.ac.in/department
+
+//PAYLOAD(get doesnt consist this)
+
+//the above json is given as array and index is 0
+
+//delete: DELETE https"//api.vcew.ac.in/department/:departmentId/studentId
+
+//
+
+//enaku express la irukara dotenv naa config apnni add pannirken
+//require - import modules, if not found then error will be raised
+//libraries importing using require
+//express server ku oru class and then adhuku oru object create panrom
+//process is used for OS to interact with the environment 
+//port is a logical entity. each process will run in each different port so in order to run it u need to use port
+
+// we are installing nodemon using npm install nodemon --save-dev
+//this will be updated in package.json
+//now in package.json scripts tag we use a dev script and define that
+//next we run the file using the command npm run dev
+
+//search API. query param should be processed. 
+//const quepara = req.query for query param
+//const filter

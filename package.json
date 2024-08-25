@@ -1,0 +1,29 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Lakshmi_Saraswathi",
+  "license": "ISC",
+  "description": "to list movie apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LakshmiSaraswathi2203/Workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LakshmiSaraswathi2203/Workshop/issues"
+  },
+  "homepage": "https://github.com/LakshmiSaraswathi2203/Workshop#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
